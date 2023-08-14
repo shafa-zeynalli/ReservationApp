@@ -1,0 +1,241 @@
+/* Basic styling */
+body {
+    margin: 0;
+    height: auto;
+    box-sizing: border-box;
+    background: no-repeat linear-gradient(135deg, #8E53E4 0%, #4B22B9 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex;
+    width: 980px;
+    height: 663px;
+    margin: 100px auto;
+    border-radius: 2px;
+    background: #F5F7FA;
+}
+
+nav {
+    width: 25%;
+    background-color: #292D32;
+    color: #626C76;
+
+
+}
+
+ol {
+    height: 542px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+nav li {
+    margin: 28px;
+}
+
+h1 {
+    color: #292D32;
+    font-size: 18px;
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 2px solid #E3EAF3;
+    margin-bottom: 25px;
+}
+
+.active {
+    color: #53D56C;
+}
+
+.stage {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.staffCard {
+    display: flex;
+    align-items: center;
+    width: 690px;
+    margin: 5px auto;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.staffCard.selected{
+    border: 1px solid green;
+}
+
+.staffCard:active{
+    border: 1px solid green;
+}
+
+.staffDescription p:first-child {
+    margin-bottom: 0;
+}
+
+.staffDescription p:last-child {
+    margin-top: 0;
+}
+
+.staffCard img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 15px 22px 15px 20px;
+
+}
+
+.reservation {
+    width: 75%;
+    height: 570px;
+    border-bottom: 1px solid #E3EAF3;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.servicePrice {
+    color: #4FBF65;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 24px 20px 0 0;
+}
+
+.dBlock {
+    display: block !important;
+}
+
+.d-none {
+    display: none;
+}
+
+/* Confirmation */
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 690px;
+    margin: 5px auto;
+}
+
+form div {
+    width: 48%;
+}
+
+.col:first-child,
+.col:nth-child(3) {
+    margin-right: 20px;
+}
+
+label {
+    color: #292D32;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+input {
+    width: 100%;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #E3EAF3;
+    background: #FFF;
+    margin: 10px 0 20px 0;
+}
+
+input:focus {
+    appearance: none;
+}
+
+#note {
+    width: 100%;
+    height: 140px;
+    border-radius: 2px;
+    border: 1px solid #E3EAF3;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    height: 140px;
+    margin: 5px auto;
+}
+
+.textarea label {
+    margin-bottom: 5px;
+}
+
+
+.footer { 
+    height: auto;
+    bottom: -30px;
+    right: 0;
+    position: absolute;
+
+}
+
+.footer>button:first-child {
+    color: #8F9CA7; 
+    position: absolute;
+    right: 650px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: 1px solid #E3EAF3;
+    background: #F7F8FB;
+    padding: 9px 15px;
+}
+.footer>button:last-child {
+    color: #fff; 
+    position: absolute;
+    right: 60px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: 1px solid #E3EAF3;
+    background: #6C70DC;
+    padding: 9px 15px;
+}
+.footer>button:nth-child(2) {
+    color: #fff; 
+    position: absolute;
+    right: 300px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 156px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: 1px solid #E3EAF3;
+    background: #F4BE6C;
+    padding: 9px 15px;
+}
+.textarea p{
+    color: #6C70DC;
+    margin: 4px 8px 4px 26px ;
+}
+.textarea p:first-child{
+    margin-top: 19px;
+}
+.textarea span{
+    color: #111;
+    margin-left: 5px;
+}
+#servicePrice{
+   color:  #4FBF65
+}
